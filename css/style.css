@@ -1,0 +1,175 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #0d0d0d;
+  color: #fff;
+}
+header {
+  background: #111;
+  padding: 1rem;
+  text-align: center;
+}
+nav a {
+  margin: 0 1rem;
+  color: #f0c040;
+  text-decoration: none;
+}
+nav a.active {
+  font-weight: bold;
+  color: #fff;
+  border-bottom: 2px solid #f0c040;
+}
+.hero {
+  background: #222;
+  padding: 4rem;
+  text-align: center;
+}
+.movie-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  padding: 1rem;
+}
+.movie-card {
+  width: 150px;
+  background: #1e1e1e;
+  border-radius: 8px;
+  padding: 0.5rem;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.movie-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+.movie-card:hover {
+  transform: scale(1.05);
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #111;
+}
+form {
+  max-width: 400px;
+  margin: auto;
+  padding: 1rem;
+}
+form input, form textarea {
+  width: 100%;
+  padding: 0.8em;
+  margin: 0.5em 0;
+  border-radius: 6px;
+  border: none;
+}
+button {
+  padding: 0.7em 1.5em;
+  background-color: #f0c040;
+  color: #000;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.reviews {
+  padding: 2rem;
+}
+.review-card {
+  display: flex;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  background: #1e1e1e;
+  padding: 1rem;
+  border-radius: 8px;
+}
+.review-card img {
+  width: 120px;
+  height: auto;
+  border-radius: 6px;
+}
+.review-card div {
+  flex: 1;
+}
+.trailers {
+  padding: 2rem;
+  text-align: center;
+}
+.trailer-grid {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+.trailer-card {
+  background: #1e1e1e;
+  padding: 1rem;
+  border-radius: 8px;
+}
+.trailer-card p {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}
+.booking {
+  padding: 2rem;
+  text-align: center;
+}
+.booking-form {
+  max-width: 400px;
+  margin: auto;
+  text-align: left;
+}
+.booking-form label {
+  display: block;
+  margin-top: 1rem;
+}
+.booking-form input,
+.booking-form select {
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 6px;
+  border: none;
+  margin-top: 0.3rem;
+}
+.gallery {
+  padding: 2rem;
+  text-align: center;
+}
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.gallery-grid img {
+  width: 100%;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.gallery-grid img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3);
+}
+footer {
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  margin-top: 2rem;
+}
+
+footer a {
+  color: #f0c040;
+  text-decoration: none;
+  margin: 0 0.3rem;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: auto;
+}
+
